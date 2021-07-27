@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/home2">
+
+    <fragment
+        android:id="@+id/home2"
+        android:name="com.example.universitykrasnodar.Home"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_home2_to_list_univer"
+            app:destination="@id/list_univer" />
+        <action
+            android:id="@+id/action_home2_to_list_test"
+            app:destination="@id/list_test" />
+    </fragment>
+    <fragment
+        android:id="@+id/list_univer"
+        android:name="com.example.universitykrasnodar.List_univer"
+        android:label="fragment_list_univer"
+        tools:layout="@layout/fragment_list_univer" >
+        <action
+            android:id="@+id/action_list_univer_to_ob_univ"
+            app:destination="@id/ob_univ" />
+    </fragment>
+    <fragment
+        android:id="@+id/ob_univ"
+        android:name="com.example.universitykrasnodar.Ob_univ"
+        android:label="fragment_ob_univ"
+        tools:layout="@layout/fragment_ob_univ" />
+    <fragment
+        android:id="@+id/list_test"
+        android:name="com.example.universitykrasnodar.List_test"
+        android:label="fragment_list_test"
+        tools:layout="@layout/fragment_list_test" >
+        <action
+            android:id="@+id/action_list_test_to_test_Golland"
+            app:destination="@id/test_Golland" />
+        <action
+            android:id="@+id/action_list_test_to_test_Klimov"
+            app:destination="@id/test_Klimov" />
+        <action
+            android:id="@+id/action_list_test_to_test_iovashi"
+            app:destination="@id/test_iovashi" />
+        <action
+            android:id="@+id/action_list_test_to_test_potemkina"
+            app:destination="@id/test_potemkina" />
+        <action
+            android:id="@+id/action_list_test_to_test_sheina"
+            app:destination="@id/test_sheina" />
+        <action
+            android:id="@+id/action_list_test_to_test_aizek"
+            app:destination="@id/test_aizek" />
+    </fragment>
+    <fragment
+        android:id="@+id/test_Golland"
+        android:name="com.example.universitykrasnodar.Tests.Test_Golland"
+        android:label="fragment_test__golland"
+        tools:layout="@layout/fragment_test__golland" >
+        <action
+            android:id="@+id/action_test_Golland_to_resultat"
+            app:destination="@id/resultat" />
+    </fragment>
+    <fragment
+        android:id="@+id/resultat"
+        android:name="com.example.universitykrasnodar.Resultat"
+        android:label="fragment_resultat"
+        tools:layout="@layout/fragment_resultat" />
+    <fragment
+        android:id="@+id/test_Klimov"
+        android:name="com.example.universitykrasnodar.Tests.Test_Klimov"
+        android:label="fragment_test__klimov"
+        tools:layout="@layout/fragment_test__klimov" >
+        <action
+            android:id="@+id/action_test_Klimov_to_resultat_klimov"
+            app:destination="@id/resultat_klimov" />
+    </fragment>
+    <fragment
+        android:id="@+id/resultat_klimov"
+        android:name="com.example.universitykrasnodar.Resultat_klimov"
+        android:label="fragment_resultat_klimov"
+        tools:layout="@layout/fragment_resultat_klimov" />
+    <fragment
+        android:id="@+id/test_iovashi"
+        android:name="com.example.universitykrasnodar.Tests.Test_iovashi"
+        android:label="fragment_test_iovashi"
+        tools:layout="@layout/fragment_test_iovashi" >
+        <action
+            android:id="@+id/action_test_iovashi_to_resultat_iowashi"
+            app:destination="@id/resultat_iowashi" />
+    </fragment>
+    <fragment
+        android:id="@+id/resultat_iowashi"
+        android:name="com.example.universitykrasnodar.Resultat_iowashi"
+        android:label="fragment_resultat_iowashi"
+        tools:layout="@layout/fragment_resultat_iowashi" />
+    <fragment
+        android:id="@+id/test_potemkina"
+        android:name="com.example.universitykrasnodar.Tests.Test_potemkina"
+        android:label="fragment_test_potemkina"
+        tools:layout="@layout/fragment_test_potemkina" >
+        <action
+            android:id="@+id/action_test_potemkina_to_resultat_potemkina"
+            app:destination="@id/resultat_potemkina" />
+    </fragment>
+    <fragment
+        android:id="@+id/resultat_potemkina"
+        android:name="com.example.universitykrasnodar.Resultat_potemkina"
+        android:label="fragment_resultat_potemkina"
+        tools:layout="@layout/fragment_resultat_potemkina" />
+    <fragment
+        android:id="@+id/test_sheina"
+        android:name="com.example.universitykrasnodar.Tests.Test_sheina"
+        android:label="fragment_test_sheina"
+        tools:layout="@layout/fragment_test_sheina" >
+        <action
+            android:id="@+id/action_test_sheina_to_resultat_sheina"
+            app:destination="@id/resultat_sheina" />
+    </fragment>
+    <fragment
+        android:id="@+id/resultat_sheina"
+        android:name="com.example.universitykrasnodar.Resultat_sheina"
+        android:label="fragment_resultat_sheina"
+        tools:layout="@layout/fragment_resultat_sheina" />
+    <fragment
+        android:id="@+id/test_aizek"
+        android:name="com.example.universitykrasnodar.Tests.Test_aizek"
+        android:label="fragment_test_aizek"
+        tools:layout="@layout/fragment_test_aizek" >
+        <action
+            android:id="@+id/action_test_aizek_to_result_aizek"
+            app:destination="@id/result_aizek" />
+    </fragment>
+    <fragment
+        android:id="@+id/result_aizek"
+        android:name="com.example.universitykrasnodar.Result_aizek"
+        android:label="fragment_result_aizek"
+        tools:layout="@layout/fragment_result_aizek" />
+</navigation>

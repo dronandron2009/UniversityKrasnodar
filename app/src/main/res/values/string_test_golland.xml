@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name = "text_golland">Выберите наиболее предпочтительную из профессий</string>
+    <string name = "proideno_golland"><u>Вы прошли:</u></string>
+    <string name = "name_golland"><b>Тест Дж.Голланда</b></string>
+    <string name = "rez_golland"><u>Ваш результат:</u></string>
+    <string name="pred_univ">Предлагаемые факультеты:</string>
+    <string name = "golland_podtext">Для подробной информации нажмите на название университета</string>
+
+
+    <string name = "text_klimov">Мне нравится…</string>
+    <string name = "name_klimov"><b>Тест Климова</b></string>
+
+
+    <string name = "text_iowashi"><b>Тест Л.А. Йовайши</b></string>
+    <string name = "text_potemkina"><b>Тест определение личности Потемкиной</b></string>
+    <string name = "text_shein"><b>Тест по методике Шейна</b></string>
+    <string name = "text_aizek"><b>Тест Айзенка</b></string>
+</resources>

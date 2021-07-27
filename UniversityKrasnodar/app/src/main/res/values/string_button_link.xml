@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name ="name_link_off">Официальный сайт</string>
+    <string name = "name_link_vk">Группа в ВК</string>
+    <string name = "wiki">Википедия</string>
+    <string name = "geo">Показать на карте</string>
+    <string name = "off_uim">https://uim.ru/</string>
+    <string name = "vk_uim">https://vk.com/prouim</string>
+    <string name = "off_kub_univer">"https://kubsau.ru/</string>
+    <string name = "vk_kub_univer">https://vk.com/kubsau</string>
+    <string name = "wiki_kub_univer">https://ru.wikipedia.org/wiki/%D0%9A%D1%83%D0%B1%D0%B0%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D0%B3%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D0%B0%D0%B3%D1%80%D0%B0%D1%80%D0%BD%D1%8B%D0%B9_%D1%83%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82</string>
+    <string name = "off_kub_univer_tech">https://kubstu.ru/</string>
+    <string name = "vk_kub_univer_tech">https://vk.com/kubstu_official</string>
+    <string name = "wiki_kub_univer_tech">https://ru.wikipedia.org/wiki/%D0%9A%D1%83%D0%B1%D0%B0%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D0%B3%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9_%D1%83%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82</string>
+    <string name = "off_krasnodar_gos_universitet">https://kgik1966.ru/</string>
+    <string name ="vk_krasnodar_gos_universitet">https://vk.com/kguki.krasnodar_123</string>
+    <string name = "wiki_krasnodar_gos_universitet">https://ru.wikipedia.org/wiki/%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%BE%D0%B4%D0%B0%D1%80%D1%81%D0%BA%D0%B8%D0%B9_%D0%B3%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D0%B8%D0%BD%D1%81%D1%82%D0%B8%D1%82%D1%83%D1%82_%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D1%83%D1%80%D1%8B</string>
+    <string name = "off_academiya_marketinga">https://www.imsit.ru/ru/</string>
+    <string name = "vk_academiya_marketinga">https://vk.com/imsit_krd_official</string>
+    <string name = "off_finance_univer">http://www.fa.ru/fil/krasnodar/Pages/Home.aspx</string>
+    <string name = "vk_finance_univer">https://vk.com/fa_kf</string>
+    <string name = "off_kub_gos_med_univer">http://www.ksma.ru/</string>
+    <string name = "vk_kub_gos_med_univer">https://vk.com/kubgmu_official</string>
+    <string name = "wiki_kub_gos_med_univer">https://ru.wikipedia.org/wiki/%D0%9A%D1%83%D0%B1%D0%B0%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D0%B3%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D0%BC%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D1%83%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82</string>
+    <string name = "off_kub_gos_univer_fizika">https://kgufkst.ru/</string>
+    <string name = "vk_kub_gos_univer_fizika">https://vk.com/kgufkst_skst</string>
+    <string name = "off_rf_econom">https://krasnodar.rea.ru/</string>
+    <string name = "vk_rf_econom">https://vk.com/kfreu</string>
+    <string name = "wiki_rf_econom">https://ru.wikipedia.org/wiki/%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%BE%D0%B4%D0%B0%D1%80%D1%81%D0%BA%D0%B8%D0%B9_%D1%84%D0%B8%D0%BB%D0%B8%D0%B0%D0%BB_%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D1%8D%D0%BA%D0%BE%D0%BD%D0%BE%D0%BC%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D1%83%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0</string>
+    <string name = "off_krasnodar_mvd">https://xn--d1alsn.xn--b1aew.xn--p1ai/</string>
+    <string name = "vk_krasnodar_mvd">https://vk.com/krdu__mvd</string>
+    <string name = "wiki_krasnodar_mvd">https://ru.wikipedia.org/wiki/%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%BE%D0%B4%D0%B0%D1%80%D1%81%D0%BA%D0%B8%D0%B9_%D1%83%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82_%D0%9C%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D0%B5%D1%80%D1%81%D1%82%D0%B2%D0%B0_%D0%B2%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D0%B8%D1%85_%D0%B4%D0%B5%D0%BB_%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%BE%D0%B9_%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%B8</string>
+    <string name = "off_kub_gos_univer">https://www.kubsu.ru/</string>
+    <string name = "vk_kub_gos_univer">https://vk.com/kubgmu_official</string>
+    <string name = "wiki_kub_gos_univer">https://ru.wikipedia.org/wiki/%D0%9A%D1%83%D0%B1%D0%B0%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D0%B3%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D1%83%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82</string>
+    <string name = "geo_uim">https://goo.gl/maps/wQx6vhM3A3xRAzYz6</string>
+    <string name = "geo_kub_univer">https://goo.gl/maps/vHgcjLQKcszW5Mib9</string>
+    <string name = "geo_kub_univer_tech">https://goo.gl/maps/eBX6dgjSofNVr4K29</string>
+    <string name = "geo_krasnodar_gos_universitet">https://goo.gl/maps/bJ1keBUi6BRX9HpQ9</string>
+    <string name = "geo_academiya_marketinga">https://goo.gl/maps/Gh3ttEndLdkcEw8K8</string>
+    <string name = "geo_finance_univer">https://goo.gl/maps/g99FpDo8VzneTYwq6</string>
+    <string name = "geo_kub_gos_med_univer">https://goo.gl/maps/nQdFkEqzxeECBNSU7</string>
+    <string name = "geo_kub_gos_univer_fizika">https://goo.gl/maps/GiJfqZvFa9Ljzir18</string>
+    <string name = "geo_rf_econom">https://goo.gl/maps/orhgJ99oroTEnNtH8</string>
+    <string name = "geo_krasnodar_mvd">https://goo.gl/maps/tSzBKRhBzsH4oKt9A</string>
+    <string name = "geo_kub_gos_univer">https://goo.gl/maps/Tq98AsgnGoitFg9WA</string>
+
+
+
+
+</resources>

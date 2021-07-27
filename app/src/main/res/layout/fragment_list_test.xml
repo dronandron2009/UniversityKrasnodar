@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".List_test">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id ="@+id/golland"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/style_main_shape"
+                android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginRight="10dp"
+                        android:textAlignment="center"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:textSize="23sp"
+                        android:text="@string/name_golland"
+                        />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lliowashi"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/style_main_shape"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="23sp"
+                    android:text="@string/text_iowashi"
+                     />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/llklimov"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/style_main_shape"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/klimov_test"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:textSize="23sp"
+                    android:textColor="@color/black"
+                    android:text="@string/name_klimov" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llshein"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/style_main_shape"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:text="@string/text_shein"
+                    android:textSize="23sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/potemkina_test"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/style_main_shape"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:text="@string/text_potemkina"
+                    android:textSize="23sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/aizek_test"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/style_main_shape"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:textSize="23sp"
+                    android:textColor="@color/black"
+                    android:text="@string/text_aizek" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

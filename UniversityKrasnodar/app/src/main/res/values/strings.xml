@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Университеты Краснодара</string>
+    <string name="text_home_logo">Краснода́р — город на юго-западе России, расположенный на правом берегу реки Кубани, на расстоянии 120 км от Чёрного моря, 140 км от Азовского моря и 1300 км к югу от Москвы.Перейти к разделу «География» Административный центр Краснодарского края.</string>
+    <string name="button_to_list_university">ПЕРЕЙТИ К СПИСКУ УНИВЕРСИТЕТОВ</string>
+    <string name="button_to_test_vocational_guidance">ПЕРЕЙТИ К ТЕСТУ НА ПРОФОРИЕНТАЦИЮ</string>
+    <string name="Uzhniy_university_managment">Южный институт менеджмента</string>
+    <string name="Kub_univer">Кубанский государственный аграрный университет им. И.Т. Трубилина</string>
+    <string name="kub_univer_tech">Кубанский государственный технологический университет</string>
+    <string name="krasnodar_gos_universitet">Краснодарский государственный институт культуры</string>
+    <string name="academiya_marketinga">Академия маркетинга и социально - информационных технологий</string>
+    <string name="finance_univer">Финансовый университет при Правительстве РФ - филиал в г.Краснодар</string>
+    <string name="kub_gos_med_univer">Кубанский государсвтенный медицинский университет</string>
+    <string name="kub_gos_univer_fizika">Кубанский государственный университет физической культуры, спорта и туризма</string>
+    <string name="rf_econom">Российский экономический университет им. Г.В. Плеханова - филиал в г.Краснодар</string>
+    <string name="krasnodar_mvd">Краснодарский университет МВД РФ</string>
+    <string name="kub_gos_univer">Кубанский государственный университет</string>
+</resources>

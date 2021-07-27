@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".List_univer">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/uzniy_univer_click"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginLeft="7dp"
+                android:layout_weight="2"
+                android:background="@drawable/style_main_shape"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/uzniy_univer"
+                    android:layout_width="298dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:text="@string/Uzhniy_university_managment"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+
+                <ImageView
+                    android:id="@+id/img_uzniy_univer"
+                    android:layout_width="150dp"
+                    android:layout_height="130dp"
+                    android:layout_marginRight="7dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginBottom="7dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    app:srcCompat="@drawable/uzniy_universitet" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/kub_univer_click"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginLeft="7dp"
+                android:layout_weight="2"
+                android:background="@drawable/style_main_shape"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/kub_univer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:text="@string/Kub_univer"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="23sp" />
+
+                <ImageView
+                    android:id="@+id/img_kub_univer"
+                    android:layout_width="200dp"
+                    android:layout_height="130dp"
+                    android:layout_marginRight="7dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginBottom="7dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    app:srcCompat="@drawable/kubanskiy_agrarniy" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/kub_univer_tech_click"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginLeft="7dp"
+                android:layout_weight="2"
+                android:background="@drawable/style_main_shape"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/kub_univer_tech"
+                    android:layout_width="298dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:text="@string/kub_univer_tech"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+
+                <ImageView
+                    android:id="@+id/img_kub_univer_tech"
+                    android:layout_width="150dp"
+                    android:layout_height="130dp"
+                    android:layout_marginRight="7dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginBottom="7dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    app:srcCompat="@drawable/kubanskiy_gos_univer"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/krasnodar_gos_universitet_click"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginLeft="7dp"
+                android:layout_weight="2"
+                android:background="@drawable/style_main_shape"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/krasnodar_gos_universitet"
+                    android:layout_width="298dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:text="@string/krasnodar_gos_universitet"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+
+                <ImageView
+                    android:id="@+id/img_krasnodar_gos_universitet"
+                    android:layout_width="150dp"
+                    android:layout_height="130dp"
+                    android:layout_marginRight="7dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginBottom="7dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    app:srcCompat="@drawable/lo"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/academiya_marketinga_click"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginLeft="7dp"
+                android:layout_weight="2"
+                android:background="@drawable/style_main_shape"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/academiya_marketinga"
+                    android:layout_width="298dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:text="@string/academiya_marketinga"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="23sp" />
+
+                <ImageView
+                    android:id="@+id/img_academiya_marketinga"
+                    android:layout_width="150dp"
+                    android:layout_height="130dp"
+                    android:layout_marginRight="7dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginBottom="7dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    app:srcCompat="@drawable/academia_marketinga"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/finance_univer_click"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginLeft="7dp"
+                android:layout_weight="2"
+                android:background="@drawable/style_main_shape"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/finance_univer"
+                    android:layout_width="298dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:text="@string/finance_univer"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/img_finance_univer"
+                    android:layout_width="150dp"
+                    android:layout_height="130dp"
+                    android:layout_marginRight="7dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginBottom="7dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    app:srcCompat="@drawable/finance"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/kub_gos_med_univer_click"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginLeft="7dp"
+                android:layout_weight="2"
+                android:background="@drawable/style_main_shape"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/kub_gos_med_univer"
+                    android:layout_width="298dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:text="@string/kub_gos_med_univer"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+
+                <ImageView
+                    android:id="@+id/img_kub_gos_med_univer"
+                    android:layout_width="150dp"
+                    android:layout_height="130dp"
+                    android:layout_marginRight="7dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginBottom="7dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    app:srcCompat="@drawable/kubanskiy_med" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/kub_gos_univer_fizika_click"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginLeft="7dp"
+                android:layout_weight="2"
+                android:background="@drawable/style_main_shape"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/kub_gos_univer_fizika"
+                    android:layout_width="298dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:text="@string/kub_gos_univer_fizika"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="19sp" />
+
+                <ImageView
+                    android:id="@+id/img_kub_gos_univer_fizika"
+                    android:layout_width="150dp"
+                    android:layout_height="130dp"
+                    android:layout_marginRight="7dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginBottom="7dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    app:srcCompat="@drawable/kubanskiy_univer_fizkultura" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/rf_econom_click"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginLeft="7dp"
+                android:layout_weight="2"
+                android:background="@drawable/style_main_shape"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/rf_econom"
+                    android:layout_width="298dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:text="@string/rf_econom"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/img_rf_econom"
+                    android:layout_width="150dp"
+                    android:layout_height="130dp"
+                    android:layout_marginRight="7dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginBottom="7dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    app:srcCompat="@drawable/plehanov" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/krasnodar_mvd_click"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginLeft="7dp"
+                android:layout_weight="2"
+                android:background="@drawable/style_main_shape"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/krasnodar_mvd"
+                    android:layout_width="298dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:text="@string/krasnodar_mvd"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+
+                <ImageView
+                    android:id="@+id/img_krasnodar_mvd"
+                    android:layout_width="150dp"
+                    android:layout_height="130dp"
+                    android:layout_marginRight="7dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginBottom="7dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    app:srcCompat="@drawable/zakon" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/kub_gos_univer_click"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="2"
+                android:background="@drawable/style_main_shape"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/kub_gos_univer"
+                    android:layout_width="298dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:text="@string/kub_gos_univer"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+
+                <ImageView
+                    android:id="@+id/img_kub_gos_univer"
+                    android:layout_width="150dp"
+                    android:layout_height="130dp"
+                    android:layout_marginRight="7dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginBottom="7dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    app:srcCompat="@drawable/kusu" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
